@@ -1,0 +1,20 @@
+/: - koreňový adresár
+/bin - základné užívateľské binárne súbory
+/boot - súbory potrebné na spustenie systému
+/CD ROM - súbory uvedené na disku CD alebo DVD
+/dev - zoznam pripojených zariadení ako adresárov
+/etc - konfiguračné súbory celého systému
+/Home - údaje a konfiguračné súbory každého z uživatelov, tolko kolko uživatelov
+/lib - libraries
+/lost+found - prípade zlyhania systému súborov budú poškodené súbory po reštarte systému uvedené v tejto časti
+/half - podadresár pre každé externé úložné zariadenie, ktoré je pripojené k počítaču
+/mnt - hdd, ssd atd.
+/opt - úbory programov nainštalovaných manuálne
+/proc - špeciálne súbory, ktoré predstavujú systémové a procesné informácie
+/root - adresár /home používateľa admin
+/run - miesto pre aplikácie na ukladanie dočasných údajov bez rizika ich náhodného vymazania
+/sbin -  binárne súbory, ktoré užívateľ root potrebuje na správu systému.
+/selinux -  SELinux je bezpečnostný modul pre jadro Linuxu. V tomto adresári nájdeme uvedené špeciálne súbory, ktoré používa
+/srv - používajú určité služby (napríklad webový server) na ukladanie a vyhľadávanie potrebných údajov na jednom mieste
+/usr -  Tu sa zhromažďujú používateľské súbory a aplikácie, ktoré nie sú nevyhnutné pre fungovanie systému. V tomto podadresári sú priečinky /bin, /sbin a /lib
+/bol - podadresár, v ktorom sú súbory, do ktorých systém zapisuje informácie počas ich používania
