@@ -1,0 +1,17 @@
+*****access level***   -   ***octal value*****
+                                             
+    Read                    4                
+    Write                   2                
+    Execute                 1                
+                                             
+*********************************************
+                                             
+                                             
+*****Identity***   -   ***Position*****       
+                                             
+     User               First or left-most   
+     Group              Middle               
+     Others             Last or right-most   
+*********************************************
+napr.:
+# chmod 740 file2
