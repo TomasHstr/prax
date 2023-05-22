@@ -1,0 +1,3 @@
+na zaciatku sme instalacia a konfigurovanie gitu, prepojenie gitu s githubom
+adresova struktura linuxu, 1. commandy, permission userov, vytvaranie novych uctov
+pisanie poznamok
