@@ -1,26 +1,26 @@
-*****access level***   -   ***octal value**** 
+*****access level***   -   ***octal value*** 
     Read                    4                
     Write                   2                
     Execute                 1                
-*********************************************
+********************************************
                                              
                                              
 *****Identity***   -   ***Position**********   
      User               First or left-most   
      Group              Middle               
      Others             Last or right-most   
-*********************************************
-
-napr.:
+********************************************
+                                            
+napr.:                                      
 # chmod 740 file2 ///chmod - change the access permissions,  7 - all access levels for the User(the numbers sum up for example: 4 + 2 + 1), 4 - write only for Group, no access levels for Others
 # chmod u=rwx,g=r,o-rwx file2 ///chmod - change the access permissions
-
-
+                                            
+                                            
 *****Task*****   -   *****Operator**********                                         
      Grant level of access   +
-     Remove level of access  -
-     Set a level of access   =
-******************************************** 
-
-napr.:
-# chmod o-r file2 - removes (-) the read (r) permission from others (o) for file2
+     Remove level of access  -              
+     Set a level of access   =              
+********************************************
+                                            
+napr.:                                      
+# chmod o-r file2 - removes (-) the read (r) permission from others (o) for file2   
