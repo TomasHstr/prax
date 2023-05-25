@@ -1,0 +1,3 @@
+zapajanie zariadení
+dopisovanie poznamok
+odskusavanie prikazov na raspberry
