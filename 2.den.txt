@@ -4,4 +4,4 @@ odskusavanie prikazov na raspberry
 prepajanie pc s raspberry cez Royal TS v65
 problemy s prepojenim
 spravenie virtual boxu s OS CentOS
-problem pripojenia CentOS-u na internet
+problem pripojenia CentOS-u na internet 
