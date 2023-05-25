@@ -1,0 +1,3 @@
+zapajanie zariadení
+ Inštalácia WSL, instalovanie ubuntu na windows pc
+vytiahnutie informacie zo systemu
