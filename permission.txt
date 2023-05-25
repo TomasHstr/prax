@@ -23,4 +23,4 @@ napr.:
 ******************************************** 
 
 napr.:
-# chmod o-r file2 - removes (-) the read (r) permission from others (o) for file2  
+# chmod o-r file2 - removes (-) the read (r) permission from others (o) for file2 
