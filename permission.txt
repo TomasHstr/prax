@@ -18,7 +18,7 @@ napr.:
                                             
 *****Task*****   -   *****Operator**********                                         
      Grant level of access   +
-     Remove level of access  -              
+     Remove level of access  -               
      Set a level of access   =              
 ********************************************
                                             
