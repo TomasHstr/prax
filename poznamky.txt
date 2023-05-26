@@ -1,0 +1,49 @@
+man - system reference manuals, command descriptions
+ 
+pwd - Print Working Directory. It prints the path of the working directory, starting from the root
+
+ls - list directory contents
+
+rm - removing files and directories
+
+cp - copy files and directories
+
+ssh — OpenSSH remote login client
+
+df - report file system space usage
+
+du - estimate file space usage
+
+scp — OpenSSH secure file copy
+
+grep - print lines that match patterns
+
+sed - stream editor for filtering and transforming text
+
+cat - prints out a text file
+
+less - prints out a text file but you can move in it
+
+vi - text editor
+
+nano - text editor, but easier
+
+tee - prints the text and put it in a text file
+
+top - task manager
+
+htop - top but better
+
+curl - transfer an URL
+
+wget - command-line utility for downloading files from the web
+
+mkdir - make directory
+
+echo - used to display line of text/string that are passed as an argument
+
+lshw - system information
+
+lscpu - cpu information
+
+curl https://www.youtube.com/ | grep video
