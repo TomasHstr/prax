@@ -1,0 +1,81 @@
+{
+  "company": "XYZ Corp",
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "department": "Sales",
+      "projects": [
+        {
+          "id": "p1",
+          "name": "Project A",
+          "status": "In Progress"
+        },
+        {
+          "id": "p2",
+          "name": "Project B",
+          "status": "Completed"
+        },
+        {
+          "id": "p5",
+          "name": "Project E",
+          "status": "In Progress"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "department": "Marketing",
+      "projects": [
+        {
+          "id": "p3",
+          "name": "Project C",
+          "status": "In Progress"
+        },
+        {
+          "id": "p4",
+          "name": "Project D",
+          "status": "In Progress"
+        },
+        {
+          "id": "p6",
+          "name": "Project F",
+          "status": "Completed"
+        },
+        {
+          "id": "p7",
+          "name": "Project G",
+          "status": "In Progress"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "David Johnson",
+      "department": "Finance",
+      "projects": [
+        {
+          "id": "p8",
+          "name": "Project H",
+          "status": "Completed"
+        },
+        {
+          "id": "p9",
+          "name": "Project I",
+          "status": "In Progress"
+        },
+        {
+          "id": "p10",
+          "name": "Project J",
+          "status": "In Progress"
+        },
+        {
+          "id": "p11",
+          "name": "Project K",
+          "status": "Completed"
+        }
+      ]
+    }
+  ]
+}
