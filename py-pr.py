@@ -39,12 +39,10 @@ while 1 :
 import random
 #a = random.randrange(1, 100)
 #b = int(input("Zadaj cislo. . . "))
-
 #while b != a:
     #if b > a:
         #print("Mensie cislo...")
     #else:
         #print("Vacsie cislo...")
     #b = int(input("znova: "))
-
 #print("ok")
