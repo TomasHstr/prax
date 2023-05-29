@@ -57,3 +57,11 @@ import random
 b = int(input("zadaj celocislo. . . "))
 if b <= 1:
     print("neni prvocislo ")
+elif b > 1:
+    for i in range(2,b):
+        print(b%i)
+        if b%i != 0:   
+            print("je")
+            break
+        elif b%i ==("neni"):
+            break
