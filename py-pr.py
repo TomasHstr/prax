@@ -29,8 +29,10 @@ while 1 :
     a = int(input("zadaj cislo: "))
     print(List)
     b = sum(List)
+    c = len(List)
     if a == 0:
         break
+        print("priemer je. . .",b/c)
 
 
 
