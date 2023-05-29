@@ -31,8 +31,8 @@ while 1 :
     b = sum(List)
     c = len(List)
     if a == 0:
-        break
         print("priemer je. . .",b/c)
+        break
 
 
 
