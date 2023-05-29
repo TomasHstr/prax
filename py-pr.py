@@ -33,12 +33,16 @@
 
 
 
- import random
-a = random.randrange(1,100)
-b = int(input("zadaj cislo"))
-if b > a:
-    print("mensie cislo.. .")
-if b < a:
-   print("vacsie cislo. . .")
-if b == a:
-   print("uhadol si!")
+import random
+
+a = random.randrange(1, 100)
+b = int(input("Zadaj cislo. . . "))
+
+while b != a:
+    if b > a:
+        print("Mensie cislo...")
+    else:
+        print("Vacsie cislo...")
+    b = int(input("znova: "))
+
+print("ok")
