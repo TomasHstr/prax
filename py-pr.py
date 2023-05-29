@@ -21,28 +21,28 @@
     #c = int(input("zadaj 3. cislo. . ."))
     #V = ((a+b+c)/3)
     #print(V)
-#List = []
-#maxLengthList = 30
-#a = int(input("zadaj cislo: "))
-#while 1 :
- #   List.append(a)
-  #  a = int(input("zadaj cislo: "))
-   # print(List)
-    #if a == 0:
-     #   break
+
+List = []
+a = int(input("zadaj cislo: "))
+while 1 :
+    List.append(a)
+    a = int(input("zadaj cislo: "))
+    print(List)
+    b = sum(List)
+    if a == 0:
+        break
 
 
 
 import random
+#a = random.randrange(1, 100)
+#b = int(input("Zadaj cislo. . . "))
 
-a = random.randrange(1, 100)
-b = int(input("Zadaj cislo. . . "))
+#while b != a:
+    #if b > a:
+        #print("Mensie cislo...")
+    #else:
+        #print("Vacsie cislo...")
+    #b = int(input("znova: "))
 
-while b != a:
-    if b > a:
-        print("Mensie cislo...")
-    else:
-        print("Vacsie cislo...")
-    b = int(input("znova: "))
-
-print("ok")
+#print("ok")
