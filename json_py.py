@@ -8,15 +8,10 @@ print(json_data["employees"][2])
     #print(i["name"])
     #print(i["department"])
 
+
+
 #for i in json_data["employees"]:
-    #if ["In Progress"] in ["projects"] :
-        #print([i"name"])
-    #print(i["department"])
-
-
-
-for i in json_data["employees"]:
-    for j in i["projects"]:
-        if j["status"] == "In Progress":
-            print(i["name"])
-            break
+    #for j in i["projects"]:
+        #if j["status"] == "In Progress":
+            #print(i["name"])
+            #break
