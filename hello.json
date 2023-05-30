@@ -9,7 +9,7 @@
         {
           "id": "p1",
           "name": "Project A",
-          "status": "In Progress"
+          "status": "Completed"
         },
         {
           "id": "p2",
@@ -19,7 +19,7 @@
         {
           "id": "p5",
           "name": "Project E",
-          "status": "In Progress"
+          "status": "Completed"
         }
       ]
     },
