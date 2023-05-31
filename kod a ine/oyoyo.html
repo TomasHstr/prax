@@ -1,141 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Tomas</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 <style>
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-
-/* Slideshow container */
-.slideshow-container {
-  position: relative;
-  background: #f1f1f1f1;
-}
-
-/* Slides */
-.mySlides {
-  display: none;
-  padding: 80px;
-  text-align: center;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -30px;
-  padding: 16px;
-  color: #888;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  position: absolute;
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-  color: white;
-}
-
-/* The dot/bullet/indicator container */
-.dot-container {
-    text-align: center;
-    padding: 20px;
-    background: #ddd;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-/* Add a background color to the active dot/circle */
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Add an italic font style to all quotes */
-q {font-style: italic;}
-
-/* Add a blue color to the author */
-.author {color: cornflowerblue;}
+body {font-family: "Raleway", Arial, sans-serif}
+.w3-row img {margin-bottom: -8px}
 </style>
 </head>
 <body>
 
-<div class="slideshow-container">
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
 
-<div class="mySlides">
-  <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
-  <p class="author">- John Keats</p>
+  <!-- Header -->
+  <header class="w3-container w3-xlarge w3-padding-24">
+    <a href="#" class="w3-left w3-button w3-white">Stuff I like</a>
+    <a href="#about" class="w3-right w3-button w3-white">About me</a>
+  </header>
+
+  <!-- Photo Grid -->
+  <div class="w3-row">
+    <div class="w3-half">
+      <img src="code.jpg" style="width:100%; height: 80%;">
+      <img src="pc.jpg" style="width:100%">
+      <img src="RAM.jpg" style="width:100%;height: 80%;">
+    </div>
+
+    <div class="w3-half">
+      <img src="gpu.jpg" style="width:100%">
+      <img src="MB.jpg" style="width:100%; height: 80%;">
+    </div>
+  </div>
+  
+<!-- End Page Content -->
 </div>
 
-<div class="mySlides">
-  <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
-  <p class="author">- Ernest Hemingway</p>
-</div>
-
-<div class="mySlides">
-  <q>I have not failed. I've just found 10,000 ways that won't work.</q>
-  <p class="author">- Thomas A. Edison</p>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-
-</div>
-
-<div class="dot-container">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
-
+<!-- Footer / About Section -->
+<footer class="w3-light-grey w3-padding-64 w3-center" id="about">
+  <h2>About</h2>
+  <form style="margin:auto;width:60%" action="https://therandombutton.github.io/random.html/" target="_blank">
+    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    <p class="w3-large w3-text-pink">Do not hesitate to give your personal information to me!</p>
+    <p class="w3-large w3-text-pink">maybe I'll look at it!</p>
+    <div class="w3-section">
+      <label><b>Name</b></label>
+      <input class="w3-input w3-border" type="text" required name="Name">
+    </div>
+    <div class="w3-section">
+      <label><b>Email</b></label>
+      <input class="w3-input w3-border" type="text" required name="Email">
+    </div>
+    <button type="submit" class="w3-button w3-block w3-dark-grey">Send<href="https://therandombutton.github.io"/"/button>
+  </form>
+  <br>
+</footer>
+ 
 </body>
-</html> 
+</html>
